@@ -1,8 +1,8 @@
-import { Router } from "express";
-import { fetchCourses } from "../controllers/course.controller";
+import { Router } from 'express'
+import { fetchCourses } from '../controllers/course.controller'
 
-const courseRouter = Router();
+const courseRouter = Router()
 
-courseRouter.get("/", fetchCourses);
+courseRouter.get('/', fetchCourses)
 
-export default courseRouter;
+export default courseRouter
